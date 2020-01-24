@@ -1,0 +1,214 @@
+
+* {
+    /* border: 1px solid black; */
+}
+
+body {
+    font-family: 'Avenir Next LT Pro';
+}
+
+.homepage-main-wrapper {
+    margin: 1rem 5rem;
+    
+}
+
+.first-section {
+    height: 100vh;
+    /* background-image: url('../img/bgSide.svg'); */
+    background-size: 120vh 120vw;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* border: 1px solid #3d3d3d */
+}
+
+
+.homepage-links {
+    display: flex;   
+    margin: 0px auto;
+    /* width: 5rem; */
+}
+
+.homepage-links a {
+    text-decoration: none;
+}
+
+.homepage-links > div {
+    margin: 1em 6em;
+}
+
+.header {
+
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.middle-body {
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.homepage-text {
+/* border: 1px solid red; */
+width: 50%;
+}
+
+.homepage-text > div {
+    /* border: 1px solid black; */
+    /* width: 60%; */
+    /* margin: 20vh 0; */
+}
+
+.homepage-hero-text {
+    font-size: 2.5rem;
+    font-family: 'ITC Avant Garde Gothic Std';
+    color: #3d3d3d;
+}
+
+.homepage-explainer-text {
+    width: 80%;
+    font-size: 1.2rem;
+    
+}
+
+.homepage-hero-image {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.homepage-cta {
+    margin-top: 3rem;
+}
+
+.homepage-cta button, .footer-cta button {
+    width: 10rem;
+    padding: 15px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    box-shadow: none;
+    background-color: red;
+    color: white;
+}
+
+.second-section, .third-section{
+    /* min-height: 100vh; */
+    /* border: 1px solid #3d3d3d; */
+}
+
+.second-section .info-section {   
+    border: 1px solid white; 
+    height: 300px;
+    width: 80%;
+    margin: 6rem auto;
+    border-radius: 15px;
+}
+
+
+.second-section .title, .third-section .title {
+ text-align: center;
+}
+.second-section .card {
+    margin: -4rem 4rem;
+    padding: 2rem;
+    width: 10rem;
+    height: min-content;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    background-color:white;
+}
+
+.see-results {
+    background-color: #659ffc;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-better {
+ background-color: #d42900;
+ display: flex;
+ justify-content: center;
+}
+
+.stress {
+    background-color: #ffd62c;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-better .image, .see-results .image, .stress .image {
+    display: flex;
+}
+
+.plan-better .image img, .see-results .image img, .stress .image img  {
+    width: 500px;
+}
+
+
+
+
+
+.footer-section, .footer-cta {    
+    /* min-height: 40vh; */
+}
+
+.footer-cta {
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-wrapper {
+    padding: 1rem;
+    background-color: #0055f9;
+    /* width: 100vw;
+    margin-left: calc(100vw-5rem;); */
+}
+
+.footer-section {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+
+.footer-links {
+    width: 20vw;
+    border-right: 1px solid white;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section ul li {
+    padding: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-social-links ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-social-links ul li a img {
+    width: 30%;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+}
