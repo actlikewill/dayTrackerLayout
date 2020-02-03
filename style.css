@@ -1,4 +1,9 @@
 
+/* #XMLID_498_ {
+    transform-origin: 65% 20%;
+} */
+
+
 * {
     /* border: 1px solid black; */
 }
@@ -211,4 +216,8 @@ width: 50%;
     color: white;
     text-align: center;
     font-size: .8rem;
+}
+
+.image svg {
+    width: 100%
 }
