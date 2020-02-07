@@ -16,7 +16,14 @@ chartTimeline.from("#XMLID_414_", {x: -1000, y: 1000});
 
 let chartBars = document.querySelectorAll('#XMLID_512_ path');
 chartBars.forEach(bar => bar.classList.add('bar'));
-chartTimeline.from(".bar", {scaleY: -0, transformOrigin: "bottom", stagger: .1})
+chartTimeline.from(".bar", {scaleY: -0, transformOrigin: "bottom", stagger: .1});
+
+let wineTimeline = gsap.timeline({repeat: 0, repeatDelay: 1});
+
+wineTimeline.from("#XMLID_436_", { scaleX: 0, opacity: 0, transformOrigin: "center"});
+wineTimeline.from("#XMLID_389_", { opacity: 0, transformOrigin: "bottom"}, .4);
+wineTimeline.from("#XMLID_392_", {x:-50, opacity: 0}, "cheers");
+wineTimeline.from("#XMLID_437_", {x:50, opacity: 0}, "cheers");
 
 let controller = new ScrollMagic.Controller();
 let calendarScene = new ScrollMagic.Scene({    
@@ -30,4 +37,10 @@ let chartScene = new ScrollMagic.Scene({
     triggerHook: .5, 
 })
 .setTween(chartTimeline)
+.addTo(controller);
+let wineScene = new ScrollMagic.Scene({
+    triggerElement: '#stress',
+    triggerHook: .5
+})
+.setTween(wineTimeline)
 .addTo(controller);
